@@ -12,7 +12,8 @@ import os
 
 def read_data():
 
-    files = glob.glob("Data/Source Files/Attendance file/*.csv") + glob.glob("Data/Source Files/Attendance file/*.xlsx")  
+    files = glob.glob("Data/Source Files/Attendance file/*.csv")
+    files += glob.glob("Data/Source Files/Attendance file/*.xlsx")  
 
     if not files:
         raise FileNotFoundError("No CSV or Excel file found.")
