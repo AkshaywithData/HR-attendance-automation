@@ -89,7 +89,7 @@ HR_Attendance_Automation/
 │   │       ├── Daily_Summary
 │   │       ├── Exception_Report
 │   │       ├── Overtime_summary
-│   │       ├── Exception_Report
+│   │       ├── Dashboard
 │   │       └── Dashboard_Template
 │   │ 
 │   └── Charts/
