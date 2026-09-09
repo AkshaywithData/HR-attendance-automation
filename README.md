@@ -53,9 +53,10 @@ Data/
 │   └── Employees file/
 │       └── Employee_Master.xlsx
 ```
+```
  Generated Reports/
     └── HR_Attendance_Report.xlsx
-
+```
 
   Place Employee_Master.xlsx in the Employees file folder and place HR_Attendance_Report.xlsx in the Generated Reports folder. The workbook should contain the required dashboard template.
 
