@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archived attendance files
+Data/Archive/*
+
+# Generated cleaned files
+Data/Clean Files/*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Generated charts
+Generated Reports/Charts/

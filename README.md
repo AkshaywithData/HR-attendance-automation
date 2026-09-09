@@ -53,6 +53,11 @@ Data/
 │   └── Employees file/
 │       └── Employee_Master.xlsx
 ```
+ Generated Reports/
+    └── HR_Attendance_Report.xlsx
+
+
+  Place Employee_Master.xlsx in the Employees file folder and place HR_Attendance_Report.xlsx in the Generated Reports folder. The workbook should contain the required dashboard template.
 
 ### 3. Run the Project
 
@@ -69,21 +74,20 @@ HR_Attendance_Automation/
 ├── requirements.txt
 ├── README.md
 ├── LICENSE
+├── .gitignore
 │
 ├── Data/
-│   ├── Source_Files/
+│   ├── Source Files/
 │   │   ├──Attendance file 
 │   │   │         └── attendance_2023_2024.csv
 │   │   └──Employees file
 │   │             └── Employee_Master.xlsx
 │   │
-│   ├── Clean_Files/
-│   │   └── Attendance_Combined_Cleaned.xlsx
+│   ├── Clean_Files/  
 │   │
 │   └── Archive/
-│       └── attendance_2023_2024_Cleaned.csv
 │
-├── Generated_Reports/
+├── Generated Reports/
 │   ├── HR_Attendance_Report.xlsx
 │   │       ├── Employee_Summary
 │   │       ├── Daily_Summary
@@ -111,11 +115,20 @@ After execution, the project generates:
 - Cleans and transforms the data
 - Maps employee names
 - Calculates attendance KPIs
-- Generates summary reports
-- Creates charts
+- Generates employee and daily summary reports
+- Generates overtime summaries
+- Creates automated charts
 - Builds an Excel dashboard
-- Saves the final report
-- Archives processed input files
+- Saves the Excel final report
+- Archives processed attendance files
+
+## Future Improvement
+
+- Add email automation for sending attendance reports
+- Add database integration for storing attendance data
+- Add API integration for connecting with HR systems
+- Add automated scheduling for daily or monthly processing
+- Add advanced dashboard filtering and analytics
 
 
 ## License
